@@ -1,0 +1,96 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+body .btn-dark::after{
+    content: '\21E8';
+    padding-left: 8px;
+}
+/*================== Nav Section ===================*/
+.nav-section .navbar-nav .nav-link {
+    font-weight: 600;
+    color: #373738cf;
+    padding: 0 20px;
+}
+/*================== Hero Section ===================*/
+.hero-section{
+    background-image: url(images/bg-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+}
+.hero-section .carousel-control-next-icon{
+    background-image: url(images/right-arrow.png);
+}
+.hero-section .carousel-control-prev-icon{
+    background-image: url(images/left-arrow.png);
+}
+.hero-section .carousel-indicators [data-bs-target]{
+    background-color: #ffbb00;
+    width: 10px;
+    height: 6px;
+    border: 1px solid #ffbb00;
+    border-radius: 10px;
+    transition: width .3s ease-in-out;
+}
+.hero-section .carousel-indicators .active{
+    width: 30px;
+}
+.hero-section p{
+    line-height: 1.8rem;
+    padding: 20px 0;
+}
+/*================== Product Section ===================*/
+.product-section{
+    padding: 50px 0;
+}
+.product-section h2{
+    font-weight: 600;
+}
+.product-section .see-all a{
+    text-decoration: none;
+    color: #ffbb00;
+    font-weight: 600;
+    font-size: 16px;
+}
+.product-section .card{
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 40px 20px;
+}
+.product-section .card .card-title{
+    font-weight: 600;
+    padding: 15px 0;
+}
+/*================== Category Section ===================*/
+.category-section{
+    padding: 50px 0;
+}
+.category-section h2{
+    font-weight: bold;
+    font-size: 38px;
+    text-align: center;
+}
+.category-section .divider{
+    margin-top: 10px;
+    width: 100px;
+    height: 7px;
+    background-color: #ffbb00;
+    border: 1px solid #ffbb00;
+    border-radius: 30px;
+}
+.category-section .card{
+    border: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 23px 0px;
+    transition: .3s ease;
+}
+.category-section .card:hover{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+.category-section .card-container a{
+    text-decoration: none;
+}
+.category-section .card .card-title{
+    font-weight: 600;
+    color: black;
+}
